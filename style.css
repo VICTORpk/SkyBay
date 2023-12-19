@@ -1,3 +1,40 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+    50% {
+        transform: translateY(-5px) scale(1.1);
+    }
+    100% {
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes floating {
+    0%, 100% {
+        transform: translateY(0) rotate(0);
+    }
+    25% {
+        transform: translateY(-5px) rotate(-2deg);
+    }
+    50% {
+        transform: translateY(0) rotate(0);
+    }
+    75% {
+        transform: translateY(5px) rotate(2deg);
+    }
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +63,11 @@ header {
 
 #logo01 {
     width: 50px;
+    transition: transform 0.3s ease-out;
+}
+
+#logo01:hover {
+    transform: scale(1.2);
 }
 
 .logo {
@@ -74,6 +116,7 @@ section.sobre {
     display: block;
     width: 30px;
     margin: 10px 0;
+    transition: transform 0.3s ease-out;
 }
 
 .texto-sobre {
@@ -112,4 +155,10 @@ section.sobre {
 
 .texto-sobre a:hover{
     background-color: #002249;
+}
+
+/*     Animações     */
+
+.social-midia img:hover {
+    transform: scale(1.2);
 }
