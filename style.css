@@ -25,7 +25,7 @@ header {
 } 
 
 #logo01 {
-    width: 70px;
+    width: 50px;
 }
 
 .logo {
@@ -66,7 +66,7 @@ section.sobre {
 
 .social-midia {
     position: absolute;
-    right: 510px;
+    right: 520px;
     top: 150px;
 }
 
@@ -106,6 +106,10 @@ section.sobre {
     margin: auto;
 }
 
-.menu a :hover{
+.menu a:hover{
     color: #006ae3;
+}
+
+.texto-sobre a:hover{
+    background-color: #002249;
 }
