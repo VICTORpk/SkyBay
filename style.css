@@ -120,7 +120,7 @@ section.sobre {
 }
 
 .texto-sobre {
-    margin-top: 60px;
+    margin-top: 30px;
     align-items: center;
 }
 
@@ -131,6 +131,7 @@ section.sobre {
 }
 
 .texto-sobre p {
+    margin-bottom: 15px;
     padding: 20px 0px 20px 0px;
     max-width: 500px;
     font-weight: bold;
@@ -161,4 +162,8 @@ section.sobre {
 
 .social-midia img:hover {
     transform: scale(1.2);
+}
+
+#notebook:hover {
+    transform:  ;
 }
